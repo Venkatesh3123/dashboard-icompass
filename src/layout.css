@@ -1,0 +1,138 @@
+.ul2 {
+  height: 500px;
+  background-color: gray;
+  width: 205px;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  margin-right: 350px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+.li2 {
+  height: 50px;
+  border: 2px solid black;
+  padding-top: 20px;
+  margin: 10px;
+  width: 150px;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+.li2:hover {
+  background-color: blue;
+}
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  * {
+    overflow: auto;
+  }
+  .ul2 {
+    height: 500px;
+    background-color: gray;
+    width: 99%;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    margin-right: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .li2 {
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: 85%;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .li2:hover {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 768px) {
+  .ul2 {
+    height: 500px;
+    background-color: gray;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    margin-right: 0px;
+    margin: 0px;
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .li2 {
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: 89%;
+    padding-left: 30px;
+    border-radius: 5px;
+  }
+  .li2:hover {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .ul2 {
+    height: 500px;
+    background-color: gray;
+    width: 99%;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    margin-right: 0px;
+    margin: 0px;
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .li2 {
+    height: 50px;
+    border: 2px solid black;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: 93%;
+    padding-left: 40px;
+    border-radius: 5px;
+  }
+  .li2:hover {
+    background-color: blue;
+  }
+}

@@ -1,0 +1,129 @@
+table,
+tr,
+th,
+td {
+  border: 2px solid red;
+}
+td {
+  color: black;
+  font-weight: bolder;
+}
+table {
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.div2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  height: 350px;
+  width: 600px;
+  background-color: azure;
+  border-radius: 8px;
+}
+.p1 {
+  margin-left: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  table,
+  tr,
+  th,
+  td {
+    border: 2px solid red;
+    font-size: 11px;
+  }
+
+  td {
+    color: black;
+    font-weight: bolder;
+
+    width: 20%;
+  }
+  table {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .div2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 350px;
+    width: 100%;
+    background-color: azure;
+    border-radius: 2px;
+  }
+  .p1 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 768px) {
+  table,
+  th,
+  td,
+  tr {
+    border: 2px solid red;
+
+    font-size: 17px;
+  }
+  td {
+    color: black;
+    font-weight: bolder;
+
+    padding: 9px;
+  }
+  table {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin: 0px;
+    width: 100%;
+  }
+  .div2 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    height: 350px;
+    width: 100%;
+    background-color: azure;
+    border-radius: 8px;
+    margin: 0px;
+  }
+  .p1 {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  table,
+  th,
+  td,
+  tr {
+    border: 2px solid red;
+
+    font-size: 17px;
+  }
+  td {
+    color: black;
+    font-weight: bolder;
+
+    padding: 9px;
+  }
+  table {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin: 0px;
+    width: 100%;
+  }
+  .div2 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    height: 350px;
+    width: 100%;
+    background-color: azure;
+    border-radius: 8px;
+    margin: 0px;
+  }
+  .p1 {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+}
